@@ -1,0 +1,53 @@
+/* Requirement: Custom background color */
+body {
+    background-color: #bdf0ed; 
+    margin: 0;
+    padding: 40px;
+    /* Requirement: Font family style */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* Requirement: Font color style */
+    color: #2d3436;
+}
+
+/* Requirement: Three divs for positioning */
+.content-box {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #22616c;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.scratch-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-section {
+    text-align: center;
+    background: #2f555f;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* Requirement: Fourth style definition */
+nav {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #00d3cf;
+    font-weight: bold;
+    text-decoration: none;
+}
